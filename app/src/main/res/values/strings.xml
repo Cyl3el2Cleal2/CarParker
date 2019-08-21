@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Car Parker</string>
+    <string name="carNumber">Car Number</string>
+    <string name="carModel">Car Model</string>
+</resources>
