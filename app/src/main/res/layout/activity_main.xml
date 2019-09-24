@@ -2,14 +2,16 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:navGraph="@navigation/navigation"
+    >
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
         <fragment
             android:id="@+id/login"
-            android:name="buu.s59160937.carparker.fragment_login"
+            android:name="buu.s59160937.carparker.FragmentLogin"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </fragment>
