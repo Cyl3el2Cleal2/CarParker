@@ -8,10 +8,10 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
         <fragment
+            android:id="@+id/login"
+            android:name="buu.s59160937.carparker.fragment_login"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            class="buu.s59160937.carparker.fragment_login">
-
+            android:layout_height="match_parent">
         </fragment>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
