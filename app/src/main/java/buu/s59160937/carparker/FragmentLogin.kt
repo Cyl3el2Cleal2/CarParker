@@ -24,17 +24,17 @@ class FragmentLogin : Fragment() {
             inflater,
             R.layout.fragment_fragment_login, container, false
         )
-//        binding.account?.user = "abv"
-//        binding.account?.password = ""
-//        binding.button.setOnClickListener {
-//            var output : String = "Incorrect Account"
-//            if(binding.user.text.toString() == "admin" && binding.password.text.toString() == "password"){
-//                output = "Sign In Successful"
-//            }
-//            Toast.makeText(activity, output, Toast.LENGTH_SHORT).show()
-//
-//        }
-//        binding.invalidateAll()
+        binding.account?.user = ""
+        binding.account?.password = ""
+        binding.button.setOnClickListener {
+            var output : String = "Incorrect Account"
+            if(binding.user.text.toString() == "admin" && binding.password.text.toString() == "password"){
+                output = "Sign In Successful"
+            }
+            Toast.makeText(activity, output, Toast.LENGTH_SHORT).show()
+
+        }
+        
         return binding.root
     }
 
