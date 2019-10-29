@@ -7,5 +7,14 @@
     android:id="@+id/loginFragment"
     android:label="fragment_login"
     android:name="buu.s59160937.carparker.FragmentLogin"
-    tools:layout="@layout/fragment_fragment_login" />
+    tools:layout="@layout/fragment_fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_parking"
+            app:destination="@id/parking" />
+    </fragment>
+    <fragment
+        android:id="@+id/parking"
+        android:label="fragment_parking"
+        android:name="buu.s59160937.carparker.Fragment_parking"
+        tools:layout="@layout/fragment_fragment_parking" />
 </navigation>
